@@ -1,0 +1,30 @@
+.text-shadow {
+    text-shadow: 2px 10px 10px rgba(0, 0, 0, 10); /* Customize the shadow here */
+  }
+.header-color{
+  color: #1f6b8d;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Start from 20px below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at the original position */
+  }
+}
+
+/* Apply the animation to the div with class 'header-animation' */
+.header-animation {
+  animation: slideUp 1s ease-out; /* Adjust duration and timing function as needed */
+}
+.header-animation-2{
+  animation: slideUp 3s ease-out;
+}
+.img-header{
+  filter: brightness(0.3);
+}
+.bg{
+  background-color:#1f6b8d;
+}
