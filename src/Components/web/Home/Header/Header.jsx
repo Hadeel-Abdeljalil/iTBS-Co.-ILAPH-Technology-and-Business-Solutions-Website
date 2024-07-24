@@ -14,11 +14,11 @@ export default function Header() {
       <div className="container ">
         <div className="position-absolute top-50 header-animation">
           <h1 className=" text-white text-shadow ">
-            ILAPH TECHNOLOGY & <span className="d-block">
+            ILAPH TECHNOLOGY & <span className="d-block ps-5">
             BUSSINES SOLUTIONS.
             </span>
           </h1>
-          <p className="header-animation-2 pe-3 text-info text-end">Achieving goals is what makes a difference</p>
+          <p className="header-animation-2 pe-5 text-info-emphasis text-end">Managing Your Data, Empowering Your Business.</p>
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ export default function Navbar() {
               class="d-inline-block align-top"
               alt="Ilaph logo"
             />
-            ILAPH
+            ILAPH TECHNOLOGY
           </a>
 
           <button
@@ -60,11 +60,7 @@ export default function Navbar() {
                   About us
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class={`nav-link ${navbar? `text-black`:`text-white`}`} >
-                  Strategy & vision
-                </Link>
-              </li>
+              
               <li class="nav-item">
                 <Link class={`nav-link ${navbar? `text-black`:`text-white`}`} >
                   Contact us

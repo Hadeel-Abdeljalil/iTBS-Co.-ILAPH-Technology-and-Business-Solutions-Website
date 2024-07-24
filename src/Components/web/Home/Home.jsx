@@ -6,6 +6,7 @@ import OurService from "./OurService/OurService";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import AboutUs from "./About/AboutUs";
 import './Home.css'
+import ContactUs from "./ContactUs/ContactUs";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </h2> 
       </div>
       <AboutUs/>
+      <ContactUs/>
     </>
   );
 }
