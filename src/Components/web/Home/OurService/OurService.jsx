@@ -1,99 +1,71 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { FaBriefcase, FaCogs, FaProjectDiagram, FaShieldAlt, FaCode } from 'react-icons/fa';
+import { MdCloud, MdManageAccounts } from "react-icons/md";
+import { IoMdCloudUpload } from "react-icons/io";
+import './OurService.css'
 
 export default function OurService() {
   return (
-    <div className="container vh-100">
-      <div className="text-center p-4  ">
-        <h2>Our Service</h2>
+    <div className="container vh-100 pt-5" id="OurService">
+      <div className="text-center p-4">
+        <h2 className="mb-5 shadow-about fw-bold">Our Service</h2>
         <p>
-          With solid experience and time based project management Ilaph
+          With solid experience and time-based project management, Ilaph
           Technology and Business Solutions is consistently providing the
           following Services.
         </p>
-        <p>
-          - BUILDING SOFTWARE DEVELOPMENT AROUND CUSTOMER NEEDS.
-          <span className="d-block">- IMPLEMENTATION & INTEGRATION:-</span>{" "}
-        </p>
       </div>
-      <div className="row">
-        <div className="col-lg-4 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
+      <div className="card-container">
+        <div className="card">
+          <div className="icon-wrapper">
+            <FaCogs />
           </div>
-          <p>Oracle RDBMS implementation and support.</p>
+          <p className="card-description">Oracle RDBMS implementation and support.</p>
         </div>
-        <div className="col-lg-4 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
+        <div className="card">
+          <div className="icon-wrapper">
+            <MdManageAccounts />
           </div>
-          <p>Microsoft SQL server implementation and management.</p>
-        </div>{" "}
-        <div className="col-lg-4 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
-          </div>
-          <p>
-            High Availability solutions (Active-Active Database solutions, RAC,
-            fail-over).
-          </p>
-        </div>{" "}
-        <div className="col-lg-4 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
-          </div>
-          <p>Data Guard Implementations.</p>
-        </div>{" "}
-        <div className="col-lg-4 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
-          </div>
-          <p>Oracle E-Business Suite Implementation and Support. </p>
-        </div>{" "}
-        <div className="col-lg-4 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
-          </div>
-          <p>Oracle Fusion Cloud Implementation. </p>
+          <p className="card-description">Microsoft SQL server implementation and management.</p>
         </div>
-        <div className="col-lg-6 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
+        <div className="card">
+          <div className="icon-wrapper">
+            <FontAwesomeIcon icon={faDatabase} />
           </div>
-          <p>Oracle Security Solutions. </p>
+          <p className="card-description">High Availability solutions (Active-Active Database solutions, RAC, fail-over).</p>
         </div>
-        <div className="col-lg-6 text-center">
-          <div>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className="bg-info p-4 rounded-circle "
-            />
+        <div className="card">
+          <div className="icon-wrapper">
+            <IoMdCloudUpload />
           </div>
-          <p>Software Developing. </p>
+          <p className="card-description">Data Guard Implementations.</p>
         </div>
-       
+        <div className="card">
+          <div className="icon-wrapper">
+            <FaProjectDiagram />
+          </div>
+          <p className="card-description">Oracle E-Business Suite Implementation and Support.</p>
+        </div>
+        <div className="card">
+          <div className="icon-wrapper">
+            <MdCloud />
+          </div>
+          <p className="card-description">Oracle Fusion Cloud Implementation.</p>
+        </div>
+        <div className="card">
+          <div className="icon-wrapper">
+            <FaShieldAlt />
+          </div>
+          <p className="card-description">Oracle Security Solutions.</p>
+        </div>
+        <div className="card">
+          <div className="icon-wrapper">
+            <FaCode />
+          </div>
+          <p className="card-description">Software Developing.</p>
+        </div>
       </div>
     </div>
   );

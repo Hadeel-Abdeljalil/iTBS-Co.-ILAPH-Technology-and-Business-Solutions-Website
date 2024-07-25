@@ -21,6 +21,7 @@
 }
 .header-animation-2{
   animation: slideUp 3s ease-out;
+  -webkit-animation: slideUp 3s ease-out;
 }
 .img-header{
   filter: brightness(0.3);

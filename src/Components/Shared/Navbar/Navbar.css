@@ -1,4 +1,31 @@
 .nav {
     background-color: #fff !important;
     transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
 }
+.nav-content {
+    position: relative;
+    padding-bottom: 2pt;
+  }
+  
+  .nav-content::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2pt;
+    background-color: #1f6b8d;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.9s ease-out;
+  }
+  
+  .nav-content:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  

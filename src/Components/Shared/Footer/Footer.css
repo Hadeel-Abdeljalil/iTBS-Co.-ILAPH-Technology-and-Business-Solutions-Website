@@ -1,6 +1,38 @@
-.icon{
-    color: #000 !important;
-    width: 3rem;
-    height: 3rem;
-    border-color: #000 !important;
-}
+.footer {
+    background-color: #1f6b8d;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 20px; /* المسافة بين الأيقونات والنص */
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 15px; /* المسافة بين الأيقونات */
+  }
+  
+  .footer-icons a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-icons a:hover {
+    color: #cce7f2; /* لون التمرير، اختياري */
+  }
+  
+  .footer-text {
+    margin: 0;
+    font-size: 0.9em; /* حجم الخط للنص */
+  }
+  
+  .footer-icons svg {
+    width: 2em; /* حجم الأيقونات */
+    height: 2em; /* حجم الأيقونات */
+  }
+  
