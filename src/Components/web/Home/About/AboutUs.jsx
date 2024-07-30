@@ -25,23 +25,7 @@ export default function AboutUs() {
             can go beyond customer expectations.
           </p>
         </div>
-        <div className="d-flex justify-content-center">
-          <div className="row">
-           <div className="col-lg-3  d-flex justify-content-end">
-           <img
-              src="/Images/ceo.png"
-              alt=""
-              className="w-50 text-end shadow-border rounded-circle"
-            />
-           </div>
-            <div className="border-2  ms-5  pt-3 shadow-lg rounded-2 col-lg-8">
-              <h3 className="shadow-about">Mohammad Khater</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos aspernatur aliquam consequuntur enim cupiditate nostrum in facere quod repudiandae, eaque harum cum veritatis quae eos perspiciatis natus consectetur eum minus? Dignissimos, minima natus laborum a quasi suscipit expedita assumenda ipsum?
-              </p>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

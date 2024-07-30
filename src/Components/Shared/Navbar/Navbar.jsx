@@ -23,7 +23,7 @@ export default function Navbar() {
     <nav className={`navbar navbar-expand-lg fixed-top   ${navbar ? '  nav ' : ''}`}>
       <div className="container h-100">
         <span className="navbar-brand mb-0 h1 font-style">
-        <a className={`navbar-brand ${navbar? `text-black`:`text-white`}`} href="/">
+        <a className={`navbar-brand  d-flex justify-content-center ${navbar? `text-black`:`text-white`}`} href="/">
             <img
               src="/Images/logo.jpg"
               width="30"
@@ -31,7 +31,7 @@ export default function Navbar() {
               className="d-inline-block align-top me-2"
               alt="Ilaph logo"
             />
-            ILAPH TECHNOLOGY
+            <span className='text-center border-start border-2 d-flex align-items-center ps-1'> ILAPH TECHNOLOGY</span>
           </a>
         </span>
         <button
