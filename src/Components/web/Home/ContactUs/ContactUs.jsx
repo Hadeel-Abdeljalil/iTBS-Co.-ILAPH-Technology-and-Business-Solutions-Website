@@ -1,14 +1,22 @@
 import React from "react";
-import { FaEnvelope, FaFax, FaMailBulk, FaPhone } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFax,
+  FaGlobe,
+  FaMailBulk,
+  FaMapMarker,
+  FaPhone,
+} from "react-icons/fa";
+import "./ContactUs.css";
 
 export default function ContactUs() {
   return (
-    <div className=" py-5 mt-5 pt-5" id="ContactUs">
+    <div className="" id="ContactUs">
       <div className="container">
-        <div className="location">
+        <div className="mb-5">
           <div className="maps row ">
-            <div className="map-text pt-5 col-lg-6">
-              <h2 className="shadow-about fw-bold mb-5">Contact Us </h2>
+            <div className="map-text  col-lg-6">
+              <h2 className="fw-bold mb-5">Contact Us </h2>
 
               <h3>Our place </h3>
               <p className="map-p">
@@ -36,8 +44,6 @@ export default function ContactUs() {
                       </div>
                       <span className="ms-2">Tele/Fax: +970 224 219 04</span>
                     </li>
-                  </ul>
-                  <ul className="list-unstyled">
                     <li className=" d-flex align-items-center p-2">
                       <div
                         className=" rounded-circle pb-2 px-2 pt-1  "
@@ -57,6 +63,7 @@ export default function ContactUs() {
                       <span className="ms-2">P.O. box: Ramallah P600</span>
                     </li>
                   </ul>
+                 
                 </div>
               </div>
             </div>
@@ -74,6 +81,7 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div className=" py-5 mb-5 vh-100" id="AboutUs">
       <div className="container">
         <div className="p-5">
-          <h2 className="text-center shadow-about mb-4 fw-bold">About us</h2>
+          <h2 className="text-center  mb-4 fw-bold">About us</h2>
           <p>
             Ilaph Technology and Business Solutions is a Private Shareholding
             company, headquartered in Palestine and owned by talented experts.

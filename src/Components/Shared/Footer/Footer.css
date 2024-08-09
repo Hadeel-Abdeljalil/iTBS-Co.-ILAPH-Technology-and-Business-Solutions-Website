@@ -9,12 +9,12 @@
     align-items: center;
     justify-content: center;
     padding: 1em;
-    gap: 20px; /* المسافة بين الأيقونات والنص */
+    gap: 20px; 
   }
   
   .footer-icons {
     display: flex;
-    gap: 15px; /* المسافة بين الأيقونات */
+    gap: 15px; 
   }
   
   .footer-icons a {
@@ -23,16 +23,16 @@
   }
   
   .footer-icons a:hover {
-    color: #cce7f2; /* لون التمرير، اختياري */
+    color: #cce7f2;
   }
   
   .footer-text {
     margin: 0;
-    font-size: 0.9em; /* حجم الخط للنص */
+    font-size: 0.9em; 
   }
   
   .footer-icons svg {
-    width: 2em; /* حجم الأيقونات */
-    height: 2em; /* حجم الأيقونات */
+    width: 2em; 
+    height: 2em; 
   }
   

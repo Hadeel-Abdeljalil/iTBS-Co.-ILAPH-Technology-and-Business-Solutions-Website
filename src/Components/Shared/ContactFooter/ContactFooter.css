@@ -1,0 +1,56 @@
+.back {
+    background-color: #1c6d8d;
+    opacity: 0.95;
+    padding: 20px 0;
+}
+
+.contact-details-map {
+    background-image: url("/Images/map.png");
+    background-position: 0 140px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+.about-us, .contact-details, .services {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.contact h4, .services h4, .about-us h4 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-details li, .services ul li {
+    padding: 10px 0;
+    border-bottom: 0.1px solid #ccc;
+}
+
+.contact-details li a, .services ul li a {
+    color: #ffffff;
+}
+
+.contact-details li a:hover, .services ul li a:hover {
+    color: #cce7ff;
+}
+
+.contact-details li span {
+    margin-left: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    color: #ffffff;
+    border-top: 1px solid #4a7b96;
+    font-size: 14px;
+}
