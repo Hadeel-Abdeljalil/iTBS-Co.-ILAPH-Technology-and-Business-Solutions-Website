@@ -11,7 +11,7 @@ import "./ContactFooter.css";
 
 export default function ContactFooter() {
   return (
-    <div className="back  ">
+    <div className="back mt-5 ">
       <div className="container">
         <div className=" py-5 row ">
           <div className="text-white col-lg-4">
@@ -29,25 +29,25 @@ export default function ContactFooter() {
             </div>
           </div>
           <div className="text-white col-lg-5">
-            <h4 className="">Services</h4>
+            <h4 className="">Our Services</h4>
             <div className="d-flex w-100">
               <ul>
                 <li>
                   <Link
-                    className="text-decoration-none text-white"
+                    className="text-decoration-none text-white linkhover"
                     to="/Oracle"
                   >
                     Oracle RDBMS implementation and support.
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-decoration-none text-white" to="/Msql">
+                  <Link className="text-decoration-none text-white linkhover" to="/Msql">
                     Microsoft SQL Server implementation and management.
                   </Link>
                 </li>
                 <li>
                   <Link
-                    className="text-decoration-none text-white"
+                    className="text-decoration-none text-white linkhover"
                     to="/Solutions"
                   >
                     High Availability solutions (Active-Active Database
@@ -55,26 +55,26 @@ export default function ContactFooter() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-decoration-none text-white" to="/Data">
+                  <Link className="text-decoration-none text-white linkhover" to="/Data">
                     Data Guard Implementations.
                   </Link>
                 </li>
                 <li>
                   <Link
-                    className="text-decoration-none text-white"
+                    className="text-decoration-none text-white linkhover"
                     to="/Ebusiness"
                   >
                     Oracle E-Business Suite Implementation and Support.
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-decoration-none text-white" to="/Cloud">
+                  <Link className="text-decoration-none text-white linkhover" to="/Cloud">
                     Oracle Fusion Cloud Implementation.
                   </Link>
                 </li>
                 <li>
                   <Link
-                    className="text-decoration-none text-white"
+                    className="text-decoration-none text-white linkhover"
                     to="/Security"
                   >
                     Oracle Security Solutions.
@@ -82,10 +82,18 @@ export default function ContactFooter() {
                 </li>
                 <li>
                   <Link
-                    className="text-decoration-none text-white"
+                    className="text-decoration-none text-white linkhover"
                     to="/Software"
                   >
-                    Software Developing.
+                    Software Development.
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="text-decoration-none text-white linkhover"
+                    to="/Web"
+                  >
+                    Web Development.
                   </Link>
                 </li>
               </ul>
@@ -98,7 +106,7 @@ export default function ContactFooter() {
                 <li className="text-white ">
                   <FaMapMarker />
                   <span
-                    className="text-decoration-none  ps-4 "
+                    className="text-decoration-none "
                     class="manchester"
                   >
                     Ramallah P600
@@ -109,7 +117,7 @@ export default function ContactFooter() {
                   <FaPhone />
                   <span>
                     <Link
-                      className="text-decoration-none text-white ps-3"
+                      className="text-decoration-none text-white ps-1"
                       to="tel:+46 123 456 789"
                     >
                       +972 592 199 002
@@ -120,7 +128,7 @@ export default function ContactFooter() {
                   <FaEnvelope />
                   <span>
                     <Link
-                      className="text-decoration-none text-white  ps-3"
+                      className="text-decoration-none text-white  ps-1"
                       to="mailto:http://hello@sitename.com"
                     >
                       info@itbs.ps
@@ -130,7 +138,7 @@ export default function ContactFooter() {
                 <li className="text-white ">
                   <FaFax />
                   <span>
-                    <span className="text-decoration-none  ps-3">
+                    <span className="text-decoration-none  ">
                       +970 224 219 04
                     </span>
                   </span>

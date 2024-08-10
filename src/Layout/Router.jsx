@@ -11,6 +11,7 @@ import Ebusiness from '../Components/web/Services/Ebusiness';
 import Security from '../Components/web/Services/Security';
 import Software from '../Components/web/Services/Software';
 import Solutions from '../Components/web/Services/Solutions';
+import Web from '../Components/web/Services/Web';
 
 export const router =createBrowserRouter([
 {
@@ -52,6 +53,10 @@ export const router =createBrowserRouter([
             {
                 path:'Solutions',
                 element: <Solutions/>
+            },
+            {
+                path: 'Web',
+                element: <Web/>
             }
     ]
 },

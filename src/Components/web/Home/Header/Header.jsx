@@ -18,7 +18,7 @@ export default function Header() {
             BUSSINES SOLUTIONS.
             </span>
           </h1>
-          <p className="header-animation-2 pe-5  text-end" style={{color: "#1f6b8d"}}>Managing Your Data, Empowering Your Business.</p>
+          <p className="header-animation-2 pe-5  text-end text-info" >Managing Your Data, Empowering Your Business.</p>
         </div>
       </div>
     </div>

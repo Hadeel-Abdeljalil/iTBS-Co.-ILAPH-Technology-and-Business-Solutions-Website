@@ -1,5 +1,5 @@
 .back {
-    background-color: #1c6d8d;
+    background-color: #303131;
     opacity: 0.95;
     padding: 20px 0;
 }
@@ -53,4 +53,9 @@
     color: #ffffff;
     border-top: 1px solid #4a7b96;
     font-size: 14px;
+}
+
+.linkhover:hover{
+    color: #4a7b96 !important;
+    
 }

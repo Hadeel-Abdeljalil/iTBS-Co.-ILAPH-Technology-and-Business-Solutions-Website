@@ -70,7 +70,13 @@ export default function OurService() {
           <div className="icon-wrapper">
             <FaCode />
           </div>
-          <p className="card-description">Software Developing.</p>
+          <p className="card-description">Software Development.</p>
+        </Link>
+        <Link className="card text-decoration-none" to="Web">
+          <div className="icon-wrapper">
+            <FaCode />
+          </div>
+          <p className="card-description">Web Development.</p>
         </Link>
       </div>
     </div>

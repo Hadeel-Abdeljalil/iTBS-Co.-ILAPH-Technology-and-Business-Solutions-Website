@@ -16,14 +16,11 @@ export default function ContactUs() {
         <div className="mb-5">
           <div className="maps row ">
             <div className="map-text  col-lg-6">
-              <h2 className="fw-bold mb-5">Contact Us </h2>
-
-              <h3>Our place </h3>
+              <h3 className=" ">Contact Us </h3>
               <p className="map-p">
                 Albiereh - Qattoum Building 3rd floor, Ramallah, Palestine.
               </p>
               <div className="pt-4">
-                <h3>Our contact details</h3>
                 <div className="d-flex">
                   <ul className="list-unstyled">
                     <li className=" d-flex align-items-center p-2">
