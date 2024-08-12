@@ -43,14 +43,10 @@
 }
 
 .timeline-item:hover .timeline-content {
-  background-color: #1f6b8d;
   transform: translateY(-10px);
   color: #ffffff;
 }
 
-.timeline-item:hover .icon-wrapper {
-  color: #ffffff;
-}
 
 .icon-wrapper {
   font-size: 36px;
