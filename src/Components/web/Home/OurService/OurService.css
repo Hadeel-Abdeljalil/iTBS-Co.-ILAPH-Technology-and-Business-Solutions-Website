@@ -1,3 +1,4 @@
+/* الأنماط العامة للقسم */
 .service-section {
   padding: 20px;
 }
@@ -47,7 +48,6 @@
   color: #ffffff;
 }
 
-
 .icon-wrapper {
   font-size: 36px;
   color: #1f6b8d;
@@ -62,11 +62,29 @@
   left: -50px;
 }
 
-.timeline-item p {
-  margin: 0;
-  color: #333;
-  font-size: 16px;
-  font-weight: 500;
+/* تخصيص الأنماط للقائمة */
+.timeline-content ul {
+  list-style: none; /* إزالة النقاط الافتراضية */
+  padding-left: 0; /* إزالة المسافة اليسرى الافتراضية */
+  margin: 0; /* إزالة المسافة العلوية والسفلية الافتراضية */
+}
+
+.timeline-content li {
+  position: relative;
+  padding-left: 25px; /* المسافة بين الرمز والنص */
+  margin-bottom: 10px; /* المسافة بين العناصر */
+  color: #000000; /* لون النص */
+  font-size: 16px; /* حجم الخط */
+}
+
+.timeline-content li:before {
+  content: "➢"; /* يمكنك تغيير هذا إلى رمز آخر مثل "→" للأسهم */
+  color: #000000; /* لون الرمز */
+  font-size: 1.2em; /* حجم الرمز */
+  position: absolute;
+  left: 0; /* موضع الرمز */
+  top: 50%;
+  transform: translateY(-50%); /* محاذاة الرمز عموديًا مع النص */
 }
 
 /* لجعل التصميم متجاوبًا */

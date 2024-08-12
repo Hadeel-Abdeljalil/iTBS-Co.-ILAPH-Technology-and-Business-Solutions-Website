@@ -11,53 +11,96 @@ import "./OurService.css";
 import { Link } from "react-router-dom";
 
 export default function OurService() {
-
   const services = [
     {
       path: "/Oracle",
       icon: <FontAwesomeIcon icon={faDatabase} />,
       description: "Oracle RDBMS implementation and support.",
+      details: [
+        "Comprehensive Oracle RDBMS solutions.",
+        "Installation and configuration.",
+        "Ongoing support and optimization."
+      ]
     },
     {
       path: "/Msql",
       icon: <SiMicrosoftsqlserver />,
       description: "Microsoft SQL server implementation and management.",
+      details: [
+        "Setup and management of Microsoft SQL Server.",
+        "Performance tuning and optimization.",
+        "Backup and recovery solutions."
+      ]
     },
     {
       path: "/Solutions",
       icon: <BsDatabaseFillGear />,
-      description:
-        "High Availability solutions (Active-Active Database solutions, RAC, fail-over).",
+      description: "High Availability solutions (Active-Active Database solutions, RAC, fail-over).",
+      details: [
+        "Active-Active database solutions.",
+        "RAC configurations.",
+        "Fail-over strategies."
+      ]
     },
     {
       path: "/Data",
       icon: <IoMdCloudUpload />,
       description: "Data Guard Implementations.",
+      details: [
+        "Deployment of Data Guard solutions.",
+        "Disaster recovery planning.",
+        "Data protection strategies."
+      ]
     },
     {
       path: "/Ebusiness",
       icon: <GrOracle />,
       description: "Oracle E-Business Suite Implementation and Support.",
+      details: [
+        "Implementation of Oracle E-Business Suite.",
+        "Ongoing support and maintenance.",
+        "Customization and integration."
+      ]
     },
     {
       path: "/Cloud",
       icon: <MdCloud />,
       description: "Oracle Fusion Cloud Implementation.",
+      details: [
+        "Oracle Fusion Cloud deployment.",
+        "Cloud integration solutions.",
+        "Cost optimization and management."
+      ]
     },
     {
       path: "/Security",
       icon: <FaShieldAlt />,
       description: "Oracle Security Solutions.",
+      details: [
+        "Robust security measures for Oracle environments.",
+        "Risk assessment and mitigation.",
+        "Compliance and auditing solutions."
+      ]
     },
     {
       path: "/Software",
       icon: <FaCode />,
       description: "Software Development.",
+      details: [
+        "Custom software development.",
+        "Application design and architecture.",
+        "Quality assurance and testing."
+      ]
     },
     {
       path: "/web",
       icon: <FaCode />,
       description: "Web Development.",
+      details: [
+        "Responsive web design.",
+        "Front-end and back-end development.",
+        "SEO and performance optimization."
+      ]
     },
   ];
 
@@ -75,8 +118,15 @@ export default function OurService() {
               to={service.path}
               className="text-decoration-none timeline-content p-3 rounded-3"
             >
-              <div className="icon-wrapper pb-3">{service.icon}</div>
-              <p className=" ">{service.description}</p>
+              <div className="d-flex align-items-center pb-3">
+                <div className="icon-wrapper ">{service.icon}</div>
+                <div className="text-dark text-start ps-2 fw-bold pt-2">{service.description}</div>
+              </div>
+              <ul>
+                {service.details.map((detail, idx) => (
+                  <li key={idx} className="text-start">{detail}</li>
+                ))}
+              </ul>
             </Link>
           </div>
         ))}

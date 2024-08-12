@@ -13,3 +13,22 @@
     border: 1px solid transparent; /* تعديل سمك ولون الحد كما ترغب */
     box-shadow: 10px 20px 40px #68a5c1; /* ظل الحدود */
 }
+
+/* Align paragraph text to justify */
+p {
+    text-align: justify; /* This will align the text to both left and right margins */
+  }
+  
+  /* Additional alignment options */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  

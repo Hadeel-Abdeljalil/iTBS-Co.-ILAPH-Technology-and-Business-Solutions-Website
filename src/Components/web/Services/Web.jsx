@@ -23,8 +23,8 @@ export default function Web() {
 
             <div className="d-flex justify-content-center">
               <img
-                src="Images/WebDevelopment.png"
-                className="py-5 mb-5"
+                src="Images/web.png"
+                className="py-5 mb-5 w-50"
                 alt="Web Development with React.js and Vite"
               />
             </div>

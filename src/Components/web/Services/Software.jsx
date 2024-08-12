@@ -34,6 +34,13 @@ export default function SoftwareDevelopment() {
                 <strong>Oracle APEX:</strong> A low-code application development platform for building web applications quickly and efficiently, with a focus on rapid development and deployment.
               </li>
             </ul>
+            <div className="d-flex justify-content-center ">
+              <img
+                src="Images/software.jpg"
+                className="py-5 mb-5 w-75"
+                alt="Web Development with React.js and Vite"
+              />
+            </div>
           </div>
           <Side />
         </div>
