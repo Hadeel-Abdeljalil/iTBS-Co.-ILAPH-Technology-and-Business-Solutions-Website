@@ -25,7 +25,17 @@
 }
 .img-header{
   filter: brightness(0.3);
+  height: 100vh; /* اضبط الارتفاع حسب الحاجة */
+
 }
 .bg{
   background-color:#1f6b8d;
+}
+/* قم بتعديل النمط الحالي ليأخذ النص كامل الشاشة على الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .img-header {
+    height: 50vh; /* اضبط الارتفاع حسب الحاجة */
+    object-fit: cover; /* تأكد من ملاءمة الصورة لتغطية عرض الشاشة */
+  }
+
 }

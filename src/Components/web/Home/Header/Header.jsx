@@ -9,7 +9,7 @@ export default function Header() {
       <img
         src="/Images/header5.jpg"
         alt=""
-        className="vh-100 vw-100 img-fluid img-header"
+        className=" vw-100 img-fluid img-header"
       />
       <div className="container ">
         <div className="position-absolute top-50 header-animation">
