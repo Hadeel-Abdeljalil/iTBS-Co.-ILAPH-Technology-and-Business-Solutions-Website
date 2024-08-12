@@ -13,7 +13,9 @@ import Software from '../Components/web/Services/Software';
 import Solutions from '../Components/web/Services/Solutions';
 import Web from '../Components/web/Services/Web';
 
-export const router =createBrowserRouter([
+export const router =createBrowserRouter(
+    
+    [
 {
     path:"/",
     element:<WebLayout/>,

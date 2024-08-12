@@ -28,4 +28,21 @@
     transform: scaleX(1);
     transform-origin: left;
   }
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.bg-active {
+    background-color: #303131; 
+  }
+  
+  .navbar .navbar-collapse {
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar-collapse.show {
+    opacity: 1;
+  }
+  
+ 
   

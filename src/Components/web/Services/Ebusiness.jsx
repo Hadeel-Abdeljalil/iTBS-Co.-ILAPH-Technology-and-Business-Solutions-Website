@@ -59,7 +59,10 @@ export default function Ebusiness() {
                 operations.
               </li>
             </ul>
-            <img src="Images/EBS.jpg" className="ms-lg-3 py-5 mb-4" alt="Oracle E-Business Suite" />
+            <div className=" text-center">
+            <img src="Images/EBS.jpg" className="ms-lg-3 py-5 mb-4 w-75 " alt="Oracle E-Business Suite" />
+
+            </div>
 
             <h4> Oracle E-Business Suite Support</h4>
             <ul>

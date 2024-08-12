@@ -11,6 +11,7 @@ import "./OurService.css";
 import { Link } from "react-router-dom";
 
 export default function OurService() {
+
   const services = [
     {
       path: "/Oracle",
@@ -55,7 +56,7 @@ export default function OurService() {
     },
     {
       path: "/web",
-      icon: <FaCode/>,
+      icon: <FaCode />,
       description: "Web Development.",
     },
   ];

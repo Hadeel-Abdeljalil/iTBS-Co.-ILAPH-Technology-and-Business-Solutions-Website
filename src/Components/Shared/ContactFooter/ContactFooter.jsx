@@ -18,7 +18,7 @@ export default function ContactFooter() {
             <h4>About Us</h4>
             <div className="">
               <p>
-                Ilaph Technology and Business Solutions is a Private
+                ILAPH Technology and Business Solutions is a Private
                 Shareholding company, headquartered in Palestine and owned by
                 talented experts. Our IT Solutions Firm specialized in providing
                 professional services and integrated solutions mainly in Oracle

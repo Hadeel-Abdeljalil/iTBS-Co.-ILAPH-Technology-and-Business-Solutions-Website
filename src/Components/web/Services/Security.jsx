@@ -40,14 +40,6 @@ export default function Security() {
                 <strong>Backup and Recovery Security:</strong> Ensuring that backup data is protected against unauthorized access and corruption, and that recovery processes are secure and reliable.
               </li>
             </ul>
-
-            <div className="d-flex justify-content-center">
-              <img
-                src="Images/SecuritySolutions.png"
-                className="py-5 mb-5"
-                alt="Oracle Security Solutions"
-              />
-            </div>
           </div>
           <Side />
         </div>

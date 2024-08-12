@@ -1,126 +1,16 @@
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .maps {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-  }
-  
-  .map-text {
-    flex: 1;
-    min-width: 300px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  .map-text h3 {
-    color: #1f6b8d;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  
-  .map-p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
-  }
-  
-  ul.list-unstyled {
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  ul.list-unstyled li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  ul.list-unstyled li div {
-    background-color: #1f6b8d;
-    color: white;
-    padding: 12px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 50px;
-    min-height: 50px;
-    margin-right: 15px;
-    transition: background-color 0.3s, transform 0.3s;
-  }
-  
-  ul.list-unstyled li div:hover {
-    background-color: #155a7a;
-    transform: scale(1.1);
-  }
-  
-  ul.list-unstyled li span,
-  ul.list-unstyled li a {
-    font-size: 20px;
-    text-decoration: none;
-  }
-  
-  ul.list-unstyled li a {
-    transition: color 0.3s;
-  }
-  
-  ul.list-unstyled li a:hover {
-    color: #1f6b8d;
-  }
-  
+
+.map-iframe iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 992px) {
   .map-iframe {
-    flex: 1;
-    min-width: 300px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .map-iframe iframe {
     width: 100%;
-    height: 100%;
-    border: none;
+    padding: 0 15px;
   }
-  
-  /* Responsive design */
-  @media (max-width: 992px) {
-    .maps {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .map-iframe {
-      margin-top: 20px;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    ul.list-unstyled li div {
-      min-width: 40px;
-      min-height: 40px;
-      padding: 8px;
-    }
-  
-    ul.list-unstyled li span,
-    ul.list-unstyled li a {
-      font-size: 14px;
-    }
-  
-    .map-text h3 {
-      font-size: 20px;
-    }
-  
-    .map-p {
-      font-size: 14px;
-    }
-  }
-  
+
+}
+

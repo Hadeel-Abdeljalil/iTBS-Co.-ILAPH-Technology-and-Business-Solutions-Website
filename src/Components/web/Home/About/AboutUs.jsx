@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div className="p-5">
           <h2 className="text-center  mb-4 fw-bold">About Us</h2>
           <p className="">
-            Ilaph Technology and Business Solutions is a distinguished Private
+            ILAPH Technology and Business Solutions is a distinguished Private
             Shareholding company, proudly headquartered in Palestine, and
             managed by a team of exceptionally skilled professionals. Our firm
             is a leader in the IT solutions sector, specializing in delivering
