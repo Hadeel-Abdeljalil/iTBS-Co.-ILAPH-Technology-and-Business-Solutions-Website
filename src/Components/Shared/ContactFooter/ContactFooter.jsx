@@ -11,7 +11,7 @@ import "./ContactFooter.css";
 
 export default function ContactFooter() {
   return (
-    <div className="back mt-5 ">
+    <div className="back ">
       <div className="container">
         <div className=" py-5 row ">
           <div className="text-white col-lg-4">

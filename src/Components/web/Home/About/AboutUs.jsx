@@ -3,11 +3,11 @@ import "./About.css";
 
 export default function AboutUs() {
   return (
-    <div className=" py-5 mb-5 vh-100" id="AboutUs">
+    <div className=" py-5 mb-5 " id="AboutUs">
       <div className="container">
         <div className="p-5">
           <h2 className="text-center  mb-4 fw-bold">About Us</h2>
-          <p>
+          <p className="">
             Ilaph Technology and Business Solutions is a distinguished Private
             Shareholding company, proudly headquartered in Palestine, and
             managed by a team of exceptionally skilled professionals. Our firm
@@ -21,6 +21,9 @@ export default function AboutUs() {
             solutions that meet the diverse needs of our clients.
           </p>
           <div className="row ">
+            <div className="col-lg-5 d-flex justify-content-center">
+              <img src="/Images/xx.png" className="w-75" alt="" />
+            </div>
             <p className="col-lg-7 ">
               With a wealth of in-depth knowledge and years of proven expertise,
               we have cultivated a reputation for excellence in delivering
@@ -37,9 +40,7 @@ export default function AboutUs() {
               that are both cutting-edge and aligned with the latest industry
               standards.
             </p>
-            <div className="col-lg-5 d-flex justify-content-end">
-              <img src="/Images/xx.png" className="w-75" alt="" />
-            </div>
+           
           </div>
         </div>
       </div>

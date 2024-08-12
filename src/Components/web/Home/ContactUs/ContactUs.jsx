@@ -8,10 +8,11 @@ import {
   FaPhone,
 } from "react-icons/fa";
 import "./ContactUs.css";
+import { Link } from "react-router-dom";
 
 export default function ContactUs() {
   return (
-    <div className="" id="ContactUs">
+    <div className="container" id="ContactUs">
       <div className="container">
         <div className="mb-5">
           <div className="maps row ">
@@ -30,8 +31,12 @@ export default function ContactUs() {
                       >
                         <FaPhone className=" text-white" />
                       </div>
-                      <span className="ms-2">+972 592 199 002</span>
-                    </li>
+                      <Link
+                      className="text-decoration-none text-dark ps-2"
+                      to="tel:+46 123 456 789"
+                    >
+                      +972 592 199 002
+                    </Link>                    </li>
                     <li className=" d-flex align-items-center p-2">
                       <div
                         className=" rounded-circle pb-2 px-2 pt-1  "
@@ -48,8 +53,12 @@ export default function ContactUs() {
                       >
                         <FaEnvelope className=" text-white" />
                       </div>
-                      <span className="ms-2">mailto:info@itbs.ps</span>
-                    </li>
+                      <Link
+                      className="text-decoration-none text-dark  ps-2"
+                      to="mailto:http://hello@sitename.com"
+                    >
+                      info@itbs.ps
+                    </Link>                    </li>
                     <li className=" d-flex align-items-center p-2">
                       <div
                         className=" rounded-circle pb-2 px-2 pt-1  "
