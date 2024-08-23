@@ -1,135 +1,37 @@
-/* الأنماط العامة للقسم */
-.service-section {
-  padding: 20px;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-.timeline-container {
-  position: relative;
-  padding: 50px 0;
-}
-
-.timeline-line {
-  position: absolute;
-  width: 1px;
+.card {
   background-color: #1f6b8d;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -2px;
+  color: white;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.timeline-item {
-  padding: 20px 40px;
-  position: relative;
-  width: 50%;
-  box-sizing: border-box;
-}
-
-.timeline-item.left {
-  left: 0;
-  text-align: right;
-}
-
-.timeline-item.right {
-  left: 50%;
-  text-align: left;
-}
-
-.timeline-item .timeline-content {
-  background-color: #ffffff;
-  display: inline-block;
-  width: 70%;
-  transition: background-color 0.3s, transform 0.3s, color 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-item:hover .timeline-content {
-  transform: translateY(-10px);
-  color: #ffffff;
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .icon-wrapper {
   font-size: 36px;
-  color: #1f6b8d;
-  transition: color 0.3s;
+  margin-bottom: 10px;
 }
 
-.timeline-item.left .icon-wrapper {
-  right: -50px;
-}
-
-.timeline-item.right .icon-wrapper {
-  left: -50px;
-}
-
-/* تخصيص الأنماط للقائمة */
-.timeline-content ul {
-  list-style: none; /* إزالة النقاط الافتراضية */
-  padding-left: 0; /* إزالة المسافة اليسرى الافتراضية */
-  margin: 0; /* إزالة المسافة العلوية والسفلية الافتراضية */
-}
-
-.timeline-content li {
-  position: relative;
-  padding-left: 25px; /* المسافة بين الرمز والنص */
-  margin-bottom: 10px; /* المسافة بين العناصر */
-  color: #000000; /* لون النص */
-  font-size: 16px; /* حجم الخط */
-}
-
-.timeline-content li:before {
-  content: "➢"; /* يمكنك تغيير هذا إلى رمز آخر مثل "→" للأسهم */
-  color: #000000; /* لون الرمز */
-  font-size: 1.2em; /* حجم الرمز */
-  position: absolute;
-  left: 0; /* موضع الرمز */
-  top: 50%;
-  transform: translateY(-50%); /* محاذاة الرمز عموديًا مع النص */
-}
-
-/* لجعل التصميم متجاوبًا */
-@media (max-width: 768px) {
-  .timeline-item {
-    width: 100%;
-    text-align: center;
-    padding: 20px 10px;
-  }
-
-  .timeline-item.left,
-  .timeline-item.right {
-    left: 0;
-    text-align: center;
-  }
-
-  .timeline-item .icon-wrapper {
-    position: static;
-    margin-bottom: 10px;
-  }
-
-  .timeline-line {
-   width: 0;
-  }
-}
-
-@media (max-width: 480px) {
-  .timeline-item {
-    padding: 10px;
-  }
-
-  .timeline-item .timeline-content {
-    width: 100%;
-  }
-
-  .timeline-line {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .icon-wrapper {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 14px;
-  }
+.card-description {
+  text-align: center;
+  font-size: 14px;
+  padding: 0 10px;
 }
