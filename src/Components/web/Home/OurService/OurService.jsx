@@ -14,7 +14,7 @@ import Oracle from "../../Services/Oracle";
 
 export default function OurService() {
   return (
-    <div className="container vh-100 pt-5" id="OurService">
+    <div className="container py-5" id="OurService">
       <div className="text-center p-4">
         <h2 className="mb-5  fw-bold">Our Service</h2>
         <p>
