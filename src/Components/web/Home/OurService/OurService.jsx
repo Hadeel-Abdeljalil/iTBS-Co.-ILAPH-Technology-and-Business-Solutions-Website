@@ -1,23 +1,21 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
-import { FaBriefcase, FaCogs, FaProjectDiagram, FaShieldAlt, FaCode } from 'react-icons/fa';
-import { MdCloud, MdManageAccounts } from "react-icons/md";
+import { FaShieldAlt, FaCode } from 'react-icons/fa';
+import { MdCloud } from "react-icons/md";
 import { IoMdCloudUpload } from "react-icons/io";
 import './OurService.css'
-import { DiMsqlServer } from "react-icons/di";
 import { SiMicrosoftsqlserver } from "react-icons/si";
 import { BsDatabaseFillGear } from "react-icons/bs";
 import { GrOracle } from "react-icons/gr";
 import { Link } from "react-router-dom";
-import Oracle from "../../Services/Oracle";
 
 export default function OurService() {
   return (
     <div className="container py-5" id="OurService">
       <div className="text-center p-4">
         <h2 className="mb-5  fw-bold">Our Service</h2>
-        <p>
+        <p className="text-center">
           With solid experience and time-based project management, Ilaph
           Technology and Business Solutions is consistently providing the
           following Services.

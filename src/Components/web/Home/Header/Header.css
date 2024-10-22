@@ -7,25 +7,32 @@
 @keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(20px); /* Start from 20px below */
+    transform: translateY(20px); 
   }
   to {
     opacity: 1;
-    transform: translateY(0); /* End at the original position */
+    transform: translateY(0); 
   }
 }
 
-/* Apply the animation to the div with class 'header-animation' */
 .header-animation {
-  animation: slideUp 1s ease-out; /* Adjust duration and timing function as needed */
+  animation: slideUp 1s ease-out; 
 }
 .header-animation-2{
   animation: slideUp 3s ease-out;
   -webkit-animation: slideUp 3s ease-out;
 }
 .img-header{
-  filter: brightness(0.3);
+  background-image: url('/Images/header5.jpg');
+  background-size: cover;
 }
 .bg{
   background-color:#1f6b8d;
+}
+
+@media (max-width:1000px){
+  .img-header{
+     background-position: top;
+     background-size: cover;
+    }
 }

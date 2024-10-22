@@ -6,6 +6,7 @@ import AboutUs from "./About/AboutUs";
 import './Home.css'
 import ContactUs from "./ContactUs/ContactUs";
 import Break from "./Break/Break";
+import GetInTouch from "./GetInTouch/GetInTouch";
 
 export default function Home() {
   return (
