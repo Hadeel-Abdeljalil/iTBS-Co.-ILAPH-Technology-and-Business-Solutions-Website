@@ -62,7 +62,7 @@ export default function Navbar() {
           </a>
           <span className="oracle-partner container">
             <img
-              src="/public/Images/oracle.svg"
+              src="/Images/oracle.svg"
               alt="Oracle Partner"
               className="responsive-img"
             />
