@@ -44,5 +44,44 @@
     opacity: 1;
   }
   
- 
+  @font-face {
+    font-family: 'Oracle Sans';
+    src: url('/path-to-font/OracleSans.woff2') format('woff2'), /* ضع مسار الخط */
+         url('/path-to-font/OracleSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
   
+  .oracle-badge {
+    display: inline-block;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+
+  .oracle-partner {
+    font-size: 1rem; /* تصغير حجم النص */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* محاذاة المحتوى لليمين */
+    gap: 5px; /* مسافة بين الشعار والنص */
+  }
+  
+  .oracle-partner img {
+    width: 80px; /* تصغير حجم الصورة */
+    height: 30px;
+    padding-top: 2.5px;
+    object-fit: cover; 
+    object-position: center; 
+  }
+  
+  .oracle-partner span {
+    color: white;
+    font-weight: normal;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1; 
+  }

@@ -1,10 +1,7 @@
-import React from "react";
 import {
   FaEnvelope,
   FaFax,
-  FaGlobe,
   FaMailBulk,
-  FaMapMarker,
   FaPhone,
 } from "react-icons/fa";
 import "./ContactUs.css";
@@ -66,7 +63,7 @@ export default function ContactUs() {
                       >
                         <FaMailBulk className=" text-white" />
                       </div>
-                      <span className="ms-2">P.O. box: Ramallah P600</span>
+                      <span className="ms-2">P.O. box: Ramallah P613</span>
                     </li>
                   </ul>
                  

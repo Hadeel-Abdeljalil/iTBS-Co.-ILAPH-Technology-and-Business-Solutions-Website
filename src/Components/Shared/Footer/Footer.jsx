@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import './Footer.css'; // تأكد من إضافة ملف CSS

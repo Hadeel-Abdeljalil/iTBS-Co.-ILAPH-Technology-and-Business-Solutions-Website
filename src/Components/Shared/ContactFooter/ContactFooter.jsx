@@ -1,8 +1,6 @@
-import React from "react";
 import {
   FaEnvelope,
   FaFax,
-  FaGlobe,
   FaMapMarker,
   FaPhone,
 } from "react-icons/fa";
@@ -107,9 +105,8 @@ export default function ContactFooter() {
                   <FaMapMarker />
                   <span
                     className="text-decoration-none "
-                    class="manchester"
                   >
-                    Ramallah P600
+                    Ramallah P613
                   </span>
                 </li>
 
