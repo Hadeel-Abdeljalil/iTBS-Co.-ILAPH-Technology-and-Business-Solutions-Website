@@ -61,17 +61,17 @@
 
 
   .oracle-partner {
-    font-size: 1rem; /* تصغير حجم النص */
+    font-size: 1.3rem; /* تصغير حجم النص */
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* محاذاة المحتوى لليمين */
+    justify-content: flex-start; /* محاذاة المحتوى لليمين */
     gap: 5px; /* مسافة بين الشعار والنص */
   }
   
   .oracle-partner img {
-    width: 80px; /* تصغير حجم الصورة */
-    height: 30px;
-    padding-top: 2.5px;
+    width: 150px; /* تصغير حجم الصورة */
+    height: 50px;
+    padding-top: 4px;
     object-fit: cover; 
     object-position: center; 
   }

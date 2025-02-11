@@ -24,6 +24,14 @@ export default function ContactFooter() {
                 products such as Oracle Database, Middleware, Security, Disaster
                 Recovery, Virtualization in addition to software development.
               </p>
+              <span className="oracle-partner container">
+            <img
+              src="/Images/oracle.svg"
+              alt="Oracle Partner"
+              className="responsive-img"
+            />
+            <span>| Partner</span>
+          </span>
             </div>
           </div>
           <div className="text-white col-lg-5">
@@ -117,7 +125,7 @@ export default function ContactFooter() {
                       className="text-decoration-none text-white ps-1"
                       to="tel:+46 123 456 789"
                     >
-                      +972 592 199 002
+                      +972 592 199 005
                     </Link>
                   </span>
                 </li>

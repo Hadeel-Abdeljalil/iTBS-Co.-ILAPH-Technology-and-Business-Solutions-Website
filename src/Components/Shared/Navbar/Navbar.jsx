@@ -60,14 +60,7 @@ export default function Navbar() {
               ILAPH TECHNOLOGY
             </span>
           </a>
-          <span className="oracle-partner container">
-            <img
-              src="/Images/oracle.svg"
-              alt="Oracle Partner"
-              className="responsive-img"
-            />
-            <span className="pe-2">| Partner</span>
-          </span>
+        
         </span>
 
         <button

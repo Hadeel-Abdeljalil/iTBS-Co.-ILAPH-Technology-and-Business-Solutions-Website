@@ -23,32 +23,29 @@ export default function ContactUs() {
                   <ul className="list-unstyled">
                     <li className=" d-flex align-items-center p-2">
                       <div
-                        className=" rounded-circle pb-2 px-2 pt-1  "
-                        style={{ backgroundColor: "#1f6b8d" }}
+                        className=" rounded-circle pb-2 px-2  "
                       >
-                        <FaPhone className=" text-white" />
+                        <FaPhone className=" text-black" />
                       </div>
                       <Link
                       className="text-decoration-none text-dark ps-2"
                       to="tel:+46 123 456 789"
                     >
-                      +972 592 199 002
+                      +972 592 199 005
                     </Link>                    </li>
                     <li className=" d-flex align-items-center p-2">
                       <div
-                        className=" rounded-circle pb-2 px-2 pt-1  "
-                        style={{ backgroundColor: "#1f6b8d" }}
+                        className=" rounded-circle pb-2 px-2  "
                       >
-                        <FaFax className=" text-white" />
+                        <FaFax className=" text-black" />
                       </div>
                       <span className="ms-2">Tele/Fax: +970 224 219 04</span>
                     </li>
                     <li className=" d-flex align-items-center p-2">
                       <div
-                        className=" rounded-circle pb-2 px-2 pt-1  "
-                        style={{ backgroundColor: "#1f6b8d" }}
+                        className=" rounded-circle pb-2 px-2  "
                       >
-                        <FaEnvelope className=" text-white" />
+                        <FaEnvelope className=" text-black" />
                       </div>
                       <Link
                       className="text-decoration-none text-dark  ps-2"
@@ -58,10 +55,9 @@ export default function ContactUs() {
                     </Link>                    </li>
                     <li className=" d-flex align-items-center p-2">
                       <div
-                        className=" rounded-circle pb-2 px-2 pt-1  "
-                        style={{ backgroundColor: "#1f6b8d" }}
+                        className=" rounded-circle pb-2 px-2  "
                       >
-                        <FaMailBulk className=" text-white" />
+                        <FaMailBulk className=" text-black" />
                       </div>
                       <span className="ms-2">P.O. box: Ramallah P613</span>
                     </li>
