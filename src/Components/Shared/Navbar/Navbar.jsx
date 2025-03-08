@@ -42,7 +42,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container h-100">
-        <span className="navbar-brand mb-0 h1 font-style">
+        <span className="navbar-brand mb-0 mt-2 h1 font-style">
           <a
             className={`navbar-brand d-flex justify-content-center ${
               navbar ? "text-black" : "text-white"
@@ -53,12 +53,20 @@ export default function Navbar() {
               src="/Images/logo.jpg"
               width="30"
               height="30"
-              className="d-inline-block align-top me-2"
+              className="d-inline-block align-top me-2 mt-2 "
               alt="Ilaph logo"
             />
-            <span className="text-center border-start border-2 d-flex align-items-center ps-1">
+            <div className="d-flex">
+            <span className="text-center d-flex align-items-center ps-1 pb-3">
               ILAPH TECHNOLOGY
             </span>
+            <img src= {navbar?"/Images/o-prtnr-blk-rgb.png": "/Images/o-prtnr-wht-rgb.png"}            
+              className="d-inline-block align-top mb-3"
+              width="120"   
+              height="40"
+              alt=""
+             />
+            </div>
           </a>
         
         </span>

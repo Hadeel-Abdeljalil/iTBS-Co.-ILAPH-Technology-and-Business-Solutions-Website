@@ -8,7 +8,7 @@
 }
 .nav-content {
     position: relative;
-    padding-bottom: 2pt;
+    padding-bottom: 0pt;
   }
   
   .nav-content::after {
@@ -30,6 +30,7 @@
   }
   .navbar {
     transition: background-color 0.3s ease;
+    padding-block: 0px;
   }
   
   .navbar.bg-active {
@@ -43,7 +44,11 @@
   .navbar-collapse.show {
     opacity: 1;
   }
-  
+  .navbar-brand{
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
   @font-face {
     font-family: 'Oracle Sans';
     src: url('/path-to-font/OracleSans.woff2') format('woff2'), /* ضع مسار الخط */
