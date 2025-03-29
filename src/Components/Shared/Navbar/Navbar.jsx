@@ -60,7 +60,7 @@ export default function Navbar() {
             <span className="text-center d-flex align-items-center ps-1 pb-3">
               ILAPH TECHNOLOGY
             </span>
-            <img src= {navbar?"/Images/o-prtnr-blk-rgb.png": "/Images/o-prtnr-wht-rgb.png"}            
+            <img src= {navbar?"/Images/o-prtnr-clr-rgb.png": "/Images/o-prtnr-clrrev-rgb.png"}            
               className="d-inline-block align-top mb-3"
               width="120"   
               height="40"
